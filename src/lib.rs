@@ -24,6 +24,7 @@ pub use error::{Error, Fault};
 pub use request::Request;
 pub use value::{Value, Index};
 pub use transport::Transport;
+pub use parser::Parser;
 
 #[cfg(feature = "http")]
 pub use transport::http;

@@ -136,7 +136,7 @@ impl<'a, R: Read> Parser<'a, R> {
         }
     }
 
-    fn parse_response(&mut self) -> ParseResult<Response> {
+    pub fn parse_response(&mut self) -> ParseResult<Response> {
         let response: Response;
 
         // <methodResponse>
